@@ -66,7 +66,7 @@ This script demonstrates the implementation of the Perceptron Learning Algorithm
   - Maintains the best-performing weights during training.
   - Visualizes the pocket decision boundary.
 
-### 6. `knn_based_recommendation_system.py`
+### 6. `ml_project_(knn).py`
 This script implements a content-based movie recommendation system using the k-Nearest Neighbors (k-NN) algorithm:
 
 - **Data Loading and Preprocessing**:
@@ -89,11 +89,26 @@ This script demonstrates linear regression to estimate a target function:
   - Computes the regression weights using matrix operations.
   - Displays the estimated weights and hypothesis line.
 
+### 8. `Classification/Regression.py`
+This script includes solutions for multiple tasks, such as regression and classification:
+
+- **Task 1: Regression**:
+  - Imputes missing values in datasets and converts columns to numeric.
+  - Trains a linear regression model and computes mean squared errors for training and validation datasets.
+  - Explores polynomial regression models of different degrees and evaluates their performance.
+  - Plots training and validation errors against polynomial degrees.
+
+- **Task 2: Classification**:
+  - Preprocesses a breast cancer dataset and splits it into training and testing sets.
+  - Trains multiple classification models, including logistic regression, decision trees, random forests, and SVMs.
+  - Evaluates models using accuracy, precision, recall, and F1-score metrics.
+
 ## Dataset
 The primary datasets include:
 - **Digit Classification**: ZipDigits.train and ZipDigits.test files containing pixel values for digit images.
 - **Synthetic Datasets**: Custom-generated data for PLA, Pocket, and regression tasks.
 - **Movie Recommendation**: Movies and ratings datasets for k-NN-based recommendations.
+- **Breast Cancer Dataset**: A preprocessed dataset for binary classification tasks.
 
 ## How to Run
 Ensure you have Python installed with the following libraries:
@@ -112,7 +127,7 @@ Replace `<script_name>` with the desired file name (e.g., `exercise_1.py`).
 ## Learning Objectives
 - Understand and implement machine learning algorithms such as PLA, pocket algorithm, k-NN, SVMs, and neural networks.
 - Gain hands-on experience with feature extraction, data preprocessing, and performance evaluation.
-- Explore advanced topics such as mini-batch gradient descent and content-based recommendation systems.
+- Explore advanced topics such as mini-batch gradient descent, polynomial regression, and multi-model classification systems.
 
 ## Acknowledgments
 The problems solved in this repository are inspired by and based on the textbook "Learning from Data." These assignments were completed as part of the Machine Learning course CMPE-257 at San Jose State University (SJSU).
